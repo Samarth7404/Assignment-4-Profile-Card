@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1020;
+  color: #f4f3ff;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+  background:
+    radial-gradient(ellipse at top, #30215e 0%, transparent 55%),
+    #0b1020;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 420px;
+  overflow: hidden;
+  border: 1px solid #51447b;
+  border-radius: 24px;
+  background: #171b30;
+  box-shadow: 0 24px 70px #0008;
+  text-align: center;
+}
+
+.profile-banner {
+  height: 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 22px;
+  background: linear-gradient(120deg, #6d43d9, #3478e5);
+}
+
+.badge {
+  padding: 8px 14px;
+  border: 1px solid #ffffff55;
+  border-radius: 30px;
+  background: #ffffff20;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.profile-content {
+  padding: 0 28px 25px;
+}
+
+.profile-image {
+  width: 124px;
+  height: 124px;
+  margin-top: -62px;
+  border: 5px solid #171b30;
+  border-radius: 50%;
+  background: #292441;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 16px 0 8px;
+  font-size: 27px;
+}
+
+.course {
+  margin: 0;
+  color: #a994ff;
+  font-weight: bold;
+}
+
+.description {
+  margin: 20px 0;
+  color: #c5c9da;
+  line-height: 1.7;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 9px;
+}
+
+.hobbies span {
+  padding: 9px 13px;
+  border: 1px solid #51447b;
+  border-radius: 20px;
+  background: #25213e;
+  color: #e0d9ff;
+  font-size: 13px;
+}
+
+.footer-text {
+  margin: 25px 0 0;
+  color: #929ab5;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
